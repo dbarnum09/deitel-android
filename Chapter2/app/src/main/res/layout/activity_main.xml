@@ -8,6 +8,27 @@
     <TextView android:text="@string/welcome" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/welcomeTextView"
-        android:textSize="@dimen/welcome_size"/>
+        android:textSize="@dimen/welcome_size"
+        android:theme="@android:color/holo_blue_dark"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/androidIMageView"
+        android:src="@drawable/android"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="The Android Dude" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/bug"
+        android:contentDescription="A Bug with his thumbs up" />
 
 </RelativeLayout>
